@@ -6,29 +6,25 @@ export default component$(() => {
   useStylesScoped$(styles);
 
   return (
-    <header>
-      <div class="logo">
-        <a href="https://qwik.builder.io/" target="_blank">
-          <QwikLogo />
-        </a>
+    <header class="bg-black bg-opacity-90 py-3 relative px-6 flex flex-row items-center content-center">
+      <div class="flex flex-col space-x-[2px] ">
+      
       </div>
-      <ul>
-        <li>
-          <a href="https://qwik.builder.io/docs/components/overview/" target="_blank">
-            Docs
-          </a>
-        </li>
-        <li>
-          <a href="https://qwik.builder.io/examples/introduction/hello-world/" target="_blank">
-            Examples
-          </a>
-        </li>
-        <li>
-          <a href="https://qwik.builder.io/tutorial/welcome/overview/" target="_blank">
-            Tutorials
-          </a>
-        </li>
-      </ul>
+      <div class=" md:flex hidden flex-row space-x-3 left-0 right-0 ml-auto items-center content-center ">
+      <a  class="text-neutral-300 font-mono font-medium text-sm font-plex">Home</a>
+      <span class="text-neutral-600 font-mono text-md">|</span>
+      <a class="text-neutral-300 font-mono font-medium text-sm font-plex">Events</a>
+      <span class="text-neutral-600 font-mono text-md">|</span>
+
+      <a class="text-neutral-300 font-mono font-medium text-sm font-plex">Registrations</a>
+      <span class="text-neutral-600 font-mono text-md">|</span>
+
+      <a class="text-neutral-300 font-mono font-medium text-sm font-plex">Contact Us</a>
+      <span class="text-neutral-600 font-mono text-md">|</span>
+
+      <button class="py-[8px] px-4 ml-1 text-black bg-white font-bold font-plex text-xs" style="clip-path: polygon(0 0, 0 100%, 100% 100%, 100% 25%, 90% 0);">Sign In</button>
+      </div>
+      
     </header>
   );
 });
