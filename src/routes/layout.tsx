@@ -11,7 +11,7 @@ export default component$(() => {
         </section>
       </main>
       <footer class="hidden">
-        <div class="bg-neutral-800 h-96 w-screen" style="footerclass"></div>
+        <div class="bg-neutral-00 h-96 w-screen" style="footerclass"></div>
       </footer>
     </>
   );

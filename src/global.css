@@ -26,6 +26,10 @@
     clip-path: polygon(0 0, 0 100%, 100% 100%, 100% 25%, 90% 0);
     }
 }
+@font-face {
+    font-family: "Mori Gothic";
+    src: url("font/MoriGothic.ttf");
+}
 
 .font-mori{
    

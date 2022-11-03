@@ -15,7 +15,7 @@ export default component$(() => {
       <span class="text-neutral-600 font-mono text-md">|</span>
       <a class="text-neutral-300 font-mono font-medium text-sm font-plex">Events</a>
       <span class="text-neutral-600 font-mono text-md">|</span>
-
+      
       <a class="text-neutral-300 font-mono font-medium text-sm font-plex">Registrations</a>
       <span class="text-neutral-600 font-mono text-md">|</span>
 
