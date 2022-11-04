@@ -1,5 +1,6 @@
 import { component$, Slot } from '@builder.io/qwik';
 import Header from '../components/header/header';
+import Radium from 'radium';
 
 export default component$(() => {
   return (
@@ -7,7 +8,9 @@ export default component$(() => {
       <main>
         <Header />
         <section>
+
           <Slot />
+
         </section>
       </main>
       <footer class="hidden">
