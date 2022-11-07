@@ -6,8 +6,19 @@ module.exports = {
       backgroundImage:
          {
            'banner': "url('../banner.svg')"
-         }
+         },
+         fontFamily: {
+          neue: ["Neue Machina", "sans"],
+          mori: ["Mori Gothic", "sans"],
+        },
      }
   },
-  plugins: [],
+  plugins: [
+    require('tailwind-scrollbar')({ nocompatible: true }),
+    
+  ],
+  
+  variants: {
+    scrollbar: ['rounded']
+}
 };

@@ -4,7 +4,6 @@ import { RouterHead } from './components/router-head/router-head';
 import Radium from 'radium';
 import './global.css';
 
-
 // Initialize Firebase
 export default component$(() => {
   /**

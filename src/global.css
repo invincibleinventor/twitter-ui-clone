@@ -21,6 +21,11 @@
 
 }
 
+.eventbutton{
+    filter: drop-shadow(0 0 20px rgba(127, 127, 127, 0.5));
+
+}
+
 @media  only screen and (min-width: 992px) {
     .footerclass{
     clip-path: polygon(0 0, 0 100%, 100% 100%, 100% 25%, 90% 0);
@@ -28,19 +33,48 @@
 }
 @font-face {
     font-family: "Mori Gothic";
-    src: url("font/MoriGothic.ttf");
+    src: url("/font/MoriGothic.ttf");
+}
+@font-face {
+    font-family: "Neue Machina";
+    src: url("/font/NeueMachina-Light.otf");
 }
 
-.font-mori{
-   
-        font-family: 'Mori Gothic';
-      
-}
 
 .fade-in-other{
     animation: fadeIn 1.5s;
 }
 
+
+.hero-date {
+    position: absolute;
+    bottom: 40px;
+    left: 42px;
+    width: 260px;
+    opacity: 1;
+    transform: none;
+    max-width: 100%;
+    height: auto;
+    display: bnetllock;
+    vertical-align: middle;
+
+       
+}
+
+@media (max-width: 767px){
+.hero-date {
+    width: 158px;
+    left: 0;
+    right:0;
+    margin-left: auto;
+    margin-right:auto;
+    bottom: 106px;
+    animation: slideup 1s;
+    
+
+
+}
+}
 .slide-in{
     animation: slideIn 1.5s;
 }
@@ -89,7 +123,11 @@
 }
 
 .registeranim{
-  
+    backface-visibility: hidden;
+    
+    transform: translateZ(0);
+    
+    -webkit-font-smoothing: subpixel-antialiased;
 }
 
 
