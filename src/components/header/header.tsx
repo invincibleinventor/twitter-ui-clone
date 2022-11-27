@@ -31,6 +31,7 @@ export default component$(() => {
 <img src={`data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' aria-hidden='true' class='r-18jsvk2 r-4qtqp9 r-yyyyoo r-1xvli5t r-dnmrzs r-bnwqim r-1plcrui r-lrvibr'%3E%3Cg%3E%3Cpath d='M3 12c0-1.1.9-2 2-2s2 .9 2 2-.9 2-2 2-2-.9-2-2zm9 2c1.1 0 2-.9 2-2s-.9-2-2-2-2 .9-2 2 .9 2 2 2zm7 0c1.1 0 2-.9 2-2s-.9-2-2-2-2 .9-2 2 .9 2 2 2z'%3E%3C/path%3E%3C/g%3E%3C/svg%3E`}  class="w-6 my-auto p-[2px] ml-auto h-6"></img>
 
  </div>
+ 
  </div>
    
   )
